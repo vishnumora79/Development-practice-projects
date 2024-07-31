@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-DISPLAY-EXAMPLE</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="MV VARDHAN">
+        <style>
+          * {
+            background-color: white;
+            text-align: center;
+          }
+          h1 {
+            background-color:aqua;
+            padding: 20px;
+            border: none;
+            border-radius: 10px ;
+            width: 500px;
+            margin-left: 30px;
+          }
+           div > p {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+          }
+          i >p {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+          }
+           div > #green {
+            display: inline-block;
+            background-color: green;
+           }
+           main p {
+background-color: aquamarine;
+display: inline-block;
+width: 100px;
+height: 100px;
+padding: 30px;
+margin-top: 200px;
+padding-top: 150px;
+           }
+        </style>
+    </head>
+    <body>
+        <h1>CSS-DISPLAY</h1>
+        <div> 
+            <div>
+                <P>inline-red</P>
+            </div>
+       <div> 
+        <i><p>block-blue</p></i>
+       </div>
+        <div>
+           <p id="green">inline-block-green</p>
+        </div>
+    </div>
+    <main> <p>ROLEX</p>
+       <P>LEO</P>
+       <P>VIKRAM</P></main>
+      
+
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DESIGNING-RESPONSIVE-DESIGN</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width:device-width, initial-scale:1 minimum-scale:1">
+        <style>
+          * {
+            background-color: antiquewhite;
+          }
+          body {
+            font-family: 'Poppins' , sans-serif;
+            margin: 50px ;
+            display: flex;
+            flex-direction: column;
+            
+          }
+          .main {
+            flex: 1;
+          }
+          h1 {
+            font-size: 5rem;
+          }
+         #creative {
+            color: navy;
+         }
+         footer {
+            text-align: right;
+            color: navy;
+         }
+        .title-image {
+            height: 200px;
+            float: left;
+            margin-left: 50px;
+        }
+        .card {
+            width: 45%;
+        }
+        .right {
+          float: right;
+        }
+        .left {
+          float: left;
+        }
+        @media (max-width: 680px) {
+            h1 {
+                font-size: 3rem;
+                text-align: center;
+            }
+            .card {
+                width: 100%;
+                display: block;
+                text-align: justify;
+                margin-bottom: 30px;
+            }
+            .card img {
+                width: 100%;
+                display: inline;
+                margin-bottom: 10px;
+                object-fit: cover;
+            }
+
+        }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <h1><i>dev.com</i></h1>
+            <h1>We are a
+             <span id="creative">Creative</span> 
+             <br>Design Agency
+        </h1>
+        </div>
+        <div class="left card">
+            <img class="title-image" src="../CSS-BOX-MODEL/practice/Salaar.jpg" alt="SALAAR">
+            <h1>SALAAR</h1>
+            <p>P>On June 20, fans of Prabhas trended 
+                Salaar on Twitter for two reasons. They took this opportunity to celebrate
+                  '100 days to Salaar'. And the second
+                   reason is the teaser release date.</p>
+        </div>
+        <div class="right card">
+           <img class="title-image" src="../CSS-BOX-MODEL/practice/leo.jpg" alt="LEO">
+            <h1>LEO</h1>
+            <p>Leo is one of the highly anticipated projects
+                in Indian cinema. The movie is rumored to
+                 be part of LCU (Lokesh Cinematic Universe).</p>
+        </div>
+        <footer>Create.Develop.Design</footer>
+
+    </body>
+</html>
