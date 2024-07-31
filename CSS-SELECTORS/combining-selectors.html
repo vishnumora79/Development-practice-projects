@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Combining CSS Selectors</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="MV VARDHAN">
+        <style>
+            * {
+                background-color: aqua;
+                text-align: center;
+            }
+          h1, I {
+           color: blueviolet;
+          }
+          div > p {
+            color: blue;
+          }
+          p i {
+            text-transform: uppercase;
+          }
+          .div .list {
+            color: green;
+          }
+          p.para {
+            color: white;
+          }
+          .div p,#root {
+            text-transform: uppercase;
+         }
+        </style>
+    </head>
+    <body>
+        <h1>THE-ASHES</h1>
+        <I>I think i would say that:</I>
+        <div class="div">
+          <p class="para">England and Australia are best test teams</p>
+          <ul class="list">
+            <li>Ben stokes</li>
+            <li id="root">Joe Root</li>
+            <li>Stuart Board</li>
+          </ul>
+        </div>
+        <ul>
+            <p class="para"> other players</p>
+        </ul>
+        <p><i>The best preperation for tomorrow is doing your best today!</i></p>
+    </body>
+</html>
