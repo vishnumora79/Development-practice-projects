@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+    background-color: aqua;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.note {
+    font-weight: normal;
+}
+#red {
+    color: red;
+}
+#orange {
+    color: orange;
+}
+#yellow {
+    color: yellow;
+}
+#green {
+    color: green;
+}
