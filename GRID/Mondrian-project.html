@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mondrian-project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width:device-width initial-scale = 1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
+        <style>
+            .grid-container {
+                height: 748px;
+                width: 748px;
+                background-color: black;
+                display: grid;
+                grid-template-rows: 414px 130px 155px 20px;
+                grid-template-columns: 320px 198px 153px 50px;
+                gap: 9px;
+            } 
+            .item {
+               background-color: azure;
+            }
+            .red {
+                background-color: red;
+        
+            }
+            .white1 {
+                grid-column: span 3;
+            }
+            .white2 {
+                   grid-row: span 2;
+            }
+            .white3 {
+                grid-area: 2/2/4/4;
+            }
+            .white4 {
+
+            }
+            .white5 {
+
+            }
+            .yellow {
+                  background-color: yellow;
+                   grid-area: 3/2/3/4;
+            }
+            .black {
+              
+            }
+            .blue {
+                background-color: blue;
+                border-bottom: 10px solid black;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Mondrian-project</h1>
+        <div class="grid-container">
+            <div class="item red"></div>
+            <div class="item white1"></div>
+            <div class="itme white2"></div>
+            <div class="item white3"></div>
+            <div class="item white4"></div>
+            <div class="item white5"></div>
+            <div class="item yellow"></div>
+            <div class="item black"></div>
+            <div class="item blue"></div>
+        </div>
+    </body>
+</html>
